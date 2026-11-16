@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>團體詳情 - K-Pop Girl Groups Wiki</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col justify-between">
+    <div>
+        <!-- Navbar -->
+        <header class="bg-slate-800 border-b border-slate-700 sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+                <a href="index.html" class="text-2xl font-black text-pink-500 tracking-wider">K-POP WIKI</a>
+                <nav class="space-x-6 text-sm font-medium">
+                    <a href="index.html" class="hover:text-pink-400 transition">首頁</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Group Header -->
+        <section id="group-header" class="py-12 px-4 bg-gradient-to-b from-slate-800 to-slate-900 border-b border-slate-800">
+            <!-- 透過 JS 動態載入 -->
+        </section>
+
+        <!-- Main Content -->
+        <main class="max-w-7xl mx-auto px-4 py-10 space-y-12">
+            <!-- Members Section -->
+            <section>
+                <h3 class="text-2xl font-bold mb-6 border-l-4 border-pink-500 pl-3">成員介紹</h3>
+                <div id="members-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <!-- 透過 JS 動態載入 -->
+                </div>
+            </section>
+
+            <!-- Representative Songs & YouTube MV Section -->
+            <section>
+                <h3 class="text-2xl font-bold mb-6 border-l-4 border-pink-500 pl-3">代表歌曲與 MV 欣賞</h3>
+                <div id="mv-container" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- 透過 JS 動態載入 -->
+                </div>
+            </section>
+
+            <!-- Albums & Awards -->
+            <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-slate-800 p-6 rounded-xl border border-slate-700">
+                    <h4 class="text-xl font-bold mb-4 text-pink-400">歷代專輯</h4>
+                    <ul id="albums-list" class="list-disc list-inside space-y-2 text-slate-300"></ul>
+                </div>
+                <div class="bg-slate-800 p-6 rounded-xl border border-slate-700">
+                    <h4 class="text-xl font-bold mb-4 text-pink-400">得獎紀錄</h4>
+                    <ul id="awards-list" class="list-disc list-inside space-y-2 text-slate-300"></ul>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 border-t border-slate-700 py-6 text-center text-slate-500 text-sm mt-12">
+        <p>K-Pop Girl Groups Wiki — Built with Karpathy LLM Wiki Pattern & Tailwind CSS</p>
+    </footer>
+
+    <script>
+        async function loadGroupDetail() {
+            const params = new URLSearchParams(window.location.search);
+            const groupId = params.get('id');
+
+            try {
+                const response = await fetch('data/groups.json');
+                const data = await response.json();
+                const group = data.groups.find(g => g.id === groupId);
+
+                if (!group) {
+                    document.getElementById('group-header').innerHTML = '<div class="max-w-7xl mx-auto text-center"><h1 class="text-3xl font-bold">找不到該團體資訊</h1><a href="index.html" class="mt-4 inline-block text-pink-400 underline">返回首頁</a></div>';
+                    return;
+                }
+
+                document.title = `${group.name} - K-Pop Girl Groups Wiki`;
+
+                // 修改 group.html 中的標頭渲染邏輯
+                document.getElementById('group-header').innerHTML = `
+                    <div class="max-w-7xl mx-auto flex items-center gap-6">
+                        <!-- 團體合照放在團名旁邊 -->
+                        <img src="${group.groupImage || 'https://via.placeholder.com/150'}" alt="${group.name}" class="w-34 h-34 md:w-40 md:h-40 rounded-2xl object-cover border-2 border-pink-500 shadow-lg">
+                        <div>
+                            <span class="text-xs font-semibold uppercase tracking-wider text-pink-400 bg-pink-950/60 px-3 py-1 rounded-full">${group.agency}</span>
+                            <h1 class="text-4xl md:text-5xl font-extrabold mt-2 text-white flex items-center gap-4">
+                                ${group.name} <span class="text-2xl font-normal text-slate-400">(${group.koreanName})</span>
+                            </h1>
+                            <p class="text-slate-400 mt-1">出道日期：${group.debutDate}</p>
+                        </div>
+                    </div>
+                `;
+
+                // 成員卡片改成可點擊跳轉到 member.html
+                document.getElementById('members-grid').innerHTML = group.members.map(member => `
+                    <a href="member.html?group=${group.id}&member=${member.id}" class="block bg-slate-800 border border-slate-700 rounded-xl p-6 shadow-md hover:border-pink-500 transition duration-300 group">
+                        <h4 class="text-xl font-bold text-white group-hover:text-pink-400 transition">${member.name}</h4>
+                        <p class="text-pink-400 text-sm">${member.koreanName} (${member.englishName || ''})</p>
+                        <p class="text-slate-300 text-sm mt-3 bg-slate-900/50 p-2 rounded">${member.position}</p>
+                    </a>
+                `).join('');
+
+                // MV 播放
+                document.getElementById('mv-container').innerHTML = group.representativeSongs.map(song => `
+                    <div class="bg-slate-800 border border-slate-700 rounded-xl overflow-hidden shadow-lg">
+                        <div class="p-4 bg-slate-800/80 border-b border-slate-700">
+                            <h4 class="font-bold text-lg text-white">${song.title}</h4>
+                        </div>
+                        <div class="relative w-full" style="padding-top: 56.25%;">
+                            <iframe class="absolute top-0 left-0 w-full h-full" src="https://www.youtube.com/embed/${song.youtubeId}" title="${song.title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                `).join('');
+
+                // 專輯
+                document.getElementById('albums-list').innerHTML = group.albums.map(album => `<li>${album}</li>`).join('');
+
+                // 獎項
+                document.getElementById('awards-list').innerHTML = group.awards.map(award => `<li>${award}</li>`).join('');
+
+            } catch (error) {
+                console.error('載入團體詳情失敗:', error);
+            }
+        }
+
+        loadGroupDetail();
+    </script>
+</body>
+</html>

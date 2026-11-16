@@ -1,0 +1,241 @@
+{
+  "groups": [
+    {
+      "id": "illit",
+      "name": "ILLIT",
+      "koreanName": "아일릿",
+      "debutDate": "2024-03-25",
+      "agency": "BELIFT LAB",
+      "groupImage": "assets/images/illit_group.jpg",
+      "members": [
+        {"id": "yunah", "name": "盧玧我", "englishName": "YUNAH", "koreanName": "윤아", "position": "Eldest, Vocal", "birthday": "2004-01-15", "bio": "ILLIT的成員，擔任隊內的大姊與Vocal，擁有穩定的唱功與獨特的舞台魅力。", "image" : "assets/images/yunah.jpg"},
+        {"id": "minju", "name": "朴敏珠", "englishName": "MINJU", "koreanName": "민주", "position": "Vocal", "birthday": "2004-05-11", "bio": "具備清澈嗓音與迷人特質的Vocal擔當。", "image" : "assets/images/minju.jpg"},
+        {"id": "moka", "name": "境 萌花", "englishName": "MOKA", "koreanName": "모카", "position": "Dance, Vocal", "birthday": "2004-10-08", "bio": "來自日本的成員，舞蹈表現力極佳，笑起來非常甜美。", "image" : "assets/images/moka.jpg"},
+        {"id": "wonhee", "name": "李沅禧", "englishName": "WONHEE", "koreanName": "원희", "position": "Vocal", "birthday": "2007-06-26", "bio": "以清純可愛的外貌與具辨識度的音色受到廣大粉絲喜愛。", "image" : "assets/images/wonhee.jpg"},
+        {"id": "iroha", "name": "外園 彩羽", "englishName": "IROHA", "koreanName": "이로하", "position": "Maknae, Dance", "birthday": "2008-02-04", "bio": "隊內的老么（Maknae），舞蹈實力堅強，從小就展現出色的表演天賦。", "image" : "assets/images/iroha.jpg"}
+      ],
+      "representativeSongs": [{"title": "Magnetic", "youtubeId": "Vk5-c_v4gMU"}],
+      "albums": ["SUPER REAL ME", "I'LL LIKE YOU"],
+      "awards": ["Rookie of the Year"]
+    },
+    {
+      "id": "le_sserafim",
+      "name": "LE SSERAFIM",
+      "koreanName": "르세라핌",
+      "debutDate": "2022-05-02",
+      "agency": "Source Music",
+      "groupImage": "assets/images/LE SSERAFIM_group.jpg",
+      "members": [
+        {"id": "Kim Chaewon", "name": "金采源", "englishName": "KIM CHAEWON", "koreanName": "김채원", "position": "Leader, Lead Vocal", "birthday": "2000-08-01", "bio": "隊長與領唱，擁有極具辨識度的清亮歌聲與強大舞台掌控力，是限定女團IZ*ONE出身。", "image" : "assets/images/Kim Chaewon.jpg"},
+        {"id": "sakura", "name": "宮脇咲良", "englishName": "SAKURA", "koreanName": "사쿠라", "position": "Vocal", "birthday": "1998-03-19", "bio": "經驗豐富的成員，兼具人氣與成熟的舞台魅力。", "image" : "assets/images/sakura.jpg"},
+        {"id": "yunjin", "name": "許允眞", "englishName": "HUH YUNJIN", "koreanName": "허윤진", "position": "Main Vocal", "birthday": "2001-10-08", "bio": "主唱擔當，同時具備出色的詞曲創作與製作能力。", "image" : "assets/images/yunjin.jpg"},
+        {"id": "kazuha", "name": "中村一葉", "englishName": "KAZUHA", "koreanName": "카즈하", "position": "Rapper, Dancer", "birthday": "2003-08-09", "bio": "擁有多年專業芭蕾舞基礎，舞蹈線條優美俐落。", "image" : "assets/images/kazuha.jpg"},
+        {"id": "eunchae", "name": "洪恩採", "englishName": "HONG EUNCHAE", "koreanName": "홍은채", "position": "Maknae, Vocal", "birthday": "2006-11-10", "bio": "隊內充滿活力的老么，性格開朗可愛，深受粉絲與姊姊們疼愛。", "image" : "assets/images/eunchae.jpg"}
+      ],
+      "representativeSongs": [
+        {"title": "EASY", "youtubeId": "bATzwtQG8x4"},
+        {"title": "UNFORGIVEN", "youtubeId": "UBFu_MBUcwc"}
+      ],
+      "albums": ["FEARLESS", "ANTIFRAGILE", "UNFORGIVEN", "EASY", "CRAZY"],
+      "awards": ["MAMA Awards Best Dance Performance", "Golden Disc Awards"]
+    },
+    {
+      "id": "ive",
+      "name": "IVE",
+      "koreanName": "아이브",
+      "debutDate": "2021-12-01",
+      "agency": "Starship Entertainment",
+      "groupImage": "assets/images/IVE_group.jpg",
+      "members": [
+        {"id": "yujin", "name": "安兪真", "englishName": "AN YUJIN", "koreanName": "안유진", "position": "Leader, Vocal", "birthday": "2003-09-01", "bio": "隊長，兼具全能實力與綜藝感，曾以限定團體I*ZONE出道。", "image" : "assets/images/yujin.jpg"},
+        {"id": "gaeul", "name": "秋天", "englishName": "GAEUL", "koreanName": "가을", "position": "Rapper, Dancer", "birthday": "2002-09-24", "bio": "成熟穩重的副唱與主饒舌擔當。", "image" : "assets/images/gaeul.jpg"},
+        {"id": "rei", "name": "直井怜", "englishName": "REI", "koreanName": "레이", "position": "Rapper, Vocal", "birthday": "2004-02-03", "bio": "來自日本的獨特魅力饒舌與歌唱成員。", "image" : "assets/images/rei.jpg"},
+        {"id": "wonyoung", "name": "張員瑛", "englishName": "JANG WONYOUNG", "koreanName": "장원영", "position": "Vocal", "birthday": "2004-08-31", "bio": "擁有極高話題度與完美偶像特質的成員。", "image" : "assets/images/wonyoung.jpg"},
+        {"id": "liz", "name": "金志垣", "englishName": "LIZ", "koreanName": "리즈", "position": "Main Vocal", "birthday": "2004-11-21", "bio": "擁有黃金主唱嗓音，歌聲深情具爆發力。", "image" : "assets/images/liz.jpg"},
+        {"id": "leeseo", "name": "李賢瑞", "englishName": "LEESEO", "koreanName": "이서", "position": "Maknae, Vocal", "birthday": "2007-02-21", "bio": "隊內充滿靈氣的老么。", "image" : "assets/images/leeseo.jpg"}
+      ],
+      "representativeSongs": [
+        {"title": "Love Dive", "youtubeId": "Y8JFxS1Hffs"},
+        {"title": "I AM", "youtubeId": "L0JPgc5kuok"}
+      ],
+      "albums": ["ELEVEN", "LOVE DIVE", "After LIKE", "I''ve IVE", "I''VE MINE", "I''VE EMPATHY"],
+      "awards": ["Melon Music Awards Artist of the Year", "MAMA Song of the Year"]
+    },
+    {
+      "id": "twice",
+      "name": "TWICE",
+      "koreanName": "트와이스",
+      "debutDate": "2015-10-20",
+      "agency": "JYP Entertainment",
+      "groupImage": "assets/images/TWICE_group.jpg",
+      "members": [
+        {"id": "nayeon", "name": "林娜璉", "englishName": "NAYEON", "koreanName": "나연", "position": "Lead Vocal", "birthday": "1995-09-22", "bio": "TWICE的活力核心與領唱。", "image" : "assets/images/nayeon.jpg"},
+        {"id": "jeongyeon", "name": "俞定延", "englishName": "JEONGYEON", "koreanName": "정연", "position": "Lead Vocal", "birthday": "1996-11-01", "bio": "擁有溫柔磁性嗓音的實力主唱。", "image" : "assets/images/jeongyeon.jpg"},
+        {"id": "momo", "name": "平井桃", "englishName": "MOMO", "koreanName": "모모", "position": "Main Dancer, Sub Vocal", "birthday": "1996-11-09", "bio": "公認的頂尖主舞，舞蹈表現力驚人。", "image" : "assets/images/momo.jpg"},
+        {"id": "sana", "name": "湊崎紗夏", "englishName": "SANA", "koreanName": "사나", "position": "Sub Vocal", "birthday": "1996-12-29", "bio": "以獨特魅力與百變風格風靡全球的成員。", "image" : "assets/images/sana.jpg"},
+        {"id": "jihyo", "name": "朴志效", "englishName": "JIHYO", "koreanName": "지효", "position": "Leader, Main Vocal", "birthday": "1997-02-01", "bio": "隊長兼主唱，實力堅強的頂樑柱。", "image" : "assets/images/jihyo.jpg"},
+        {"id": "mina", "name": "名井南", "englishName": "MINA", "koreanName": "미나", "position": "Main Dancer, Vocal", "birthday": "1997-03-24", "bio": "優雅高貴的芭蕾底子舞者與歌唱擔當。", "image" : "assets/images/mina.jpg"},
+        {"id": "dahyun", "name": "金多賢", "englishName": "DAHYUN", "koreanName": "다현", "position": "Lead Rapper", "birthday": "1998-05-28", "bio": "綜藝感十足且才華洋溢的饒舌擔當。", "image" : "assets/images/dahyun.jpg"},
+        {"id": "chaeyoung", "name": "孫彩瑛", "englishName": "CHAEYOUNG", "koreanName": "채영", "position": "Main Rapper", "birthday": "1999-04-23", "bio": "充滿藝術天份的主饒舌與創作才女。", "image" : "assets/images/chaeyoung.jpg"},
+        {"id": "tzuyu", "name": "周子瑜", "englishName": "TZUYU", "koreanName": "쯔위", "position": "Maknae, Sub Vocal", "birthday": "1999-06-14", "bio": "全球知名的老么視覺擔當。", "image" : "assets/images/tzuyu.jpg"}
+      ],
+      "representativeSongs": [
+        {"title": "CHEER UP", "youtubeId": "c7rCyll5AeY"},
+        {"title": "FANCY", "youtubeId": "kOHB85vDuow"}
+      ],
+      "albums": ["The Story Begins", "Page Two", "TWICEcoaster: LANE 1", "Formula of Love", "With YOU-th"],
+      "awards": ["MAMA Artist of the Year", "Golden Disc Disk Daesang"]
+    },
+    {
+      "id": "aespa",
+      "name": "aespa",
+      "koreanName": "에스파",
+      "debutDate": "2020-11-17",
+      "agency": "SM Entertainment",
+      "groupImage": "assets/images/aespa_group.jpg",
+      "members": [
+        {"id": "karina", "name": "劉知珉", "englishName": "KARINA", "koreanName": "카리나", "position": "Leader, Main Dancer, Lead Rapper", "birthday": "2000-04-11", "bio": "隊長，兼具頂級舞台魅力的全能ACE。", "image" : "assets/images/karina.jpg"},
+        {"id": "giselle", "name": "內永枝利", "englishName": "GISELLE", "koreanName": "지젤", "position": "Main Rapper, Sub Vocal", "birthday": "2000-10-30", "bio": "語速流利、饒舌風格強烈的主饒舌擔當。", "image" : "assets/images/giselle.jpg"},
+        {"id": "winter", "name": "金旼炡", "englishName": "WINTER", "koreanName": "윈터", "position": "Lead Vocal, Lead Dancer", "birthday": "2001-01-01", "bio": "擁有清亮高音與完美舞蹈線條的領唱。", "image" : "assets/images/winter.jpg"},
+        {"id": "ningning", "name": "寧藝卓", "englishName": "NINGNING", "koreanName": "닝닝", "position": "Main Vocal, Maknae", "birthday": "2002-10-23", "bio": "高亢渾厚的主唱擔當，歌唱實力備受肯定。", "image" : "assets/images/ningning.jpg"}
+      ],
+      "representativeSongs": [
+        {"title": "Next Level", "youtubeId": "4TWR90KJl84"},
+        {"title": "Supernova", "youtubeId": "phuiisByETg"}
+      ],
+      "albums": ["Savage", "Girls", "MY WORLD", "Drama", "Armageddon"],
+      "awards": ["MAMA Song of the Year", "Melon Music Awards Record of the Year"]
+    },
+    {
+      "id": "g_idle",
+      "name": "(G)I-DLE",
+      "koreanName": "(여자)아이들",
+      "debutDate": "2018-05-02",
+      "agency": "Cube Entertainment",
+      "groupImage": "assets/images/(G)I-DLE_group.jpg",
+      "members": [
+        {"id": "miyeon", "name": "曺薇娟", "englishName": "MIYEON", "koreanName": "미연", "position": "Main Vocal", "birthday": "1997-01-31", "bio": "擁有蜜嗓的高音主唱與門面擔當。", "image" : "assets/images/miyeon.jpg"},
+        {"id": "minnie", "name": "米妮", "englishName": "MINNIE", "koreanName": "민니", "position": "Main Vocal", "birthday": "1997-10-23", "bio": "音色極具夢幻神祕感的泰國籍主唱。", "image" : "assets/images/minnie.jpg"},
+        {"id": "soyeon", "name": "田小娟", "englishName": "SOYEON", "koreanName": "소연", "position": "Leader, Main Rapper, Producer", "birthday": "1998-08-26", "bio": "全能音樂製作人隊長，帶領組合走向巔峰的靈魂人物。", "image" : "assets/images/soyeon.jpg"},
+        {"id": "yuqi", "name": "宋雨琦", "englishName": "YUQI", "koreanName": "우기", "position": "Lead Dancer, Sub Vocal", "birthday": "1999-09-23", "bio": "擁有獨特沙啞磁性嗓音與活潑綜藝感的中國籍成員。", "image" : "assets/images/yuqi.jpg"},
+        {"id": "shuhua", "name": "葉舒華", "englishName": "SHUHUA", "koreanName": "슈화", "position": "Maknae, Sub Vocal", "birthday": "2000-01-06", "bio": "直率美麗的台灣籍老么成員。", "image" : "assets/images/shuhua.jpg"}
+      ],
+      "representativeSongs": [
+        {"title": "TOMBOY", "youtubeId": "Jh4QFaPmdss"},
+        {"title": "Queencard", "youtubeId": "7HDeem-JaSY"}
+      ],
+      "albums": ["I am", "I trust", "I burn", "I NEVER DIE", "I love", "I feel", "2"],
+      "awards": ["Golden Disc Awards Best Album", "MAMA Awards"]
+    },
+    {
+      "id": "blackpink",
+      "name": "BLACKPINK",
+      "koreanName": "블랙핑크",
+      "debutDate": "2016-08-08",
+      "agency": "YG Entertainment",
+      "groupImage": "assets/images/BLACKPINK_group.jpg",
+      "members": [
+        {"id": "jisoo", "name": "金智秀", "englishName": "JISOO", "koreanName": "지수", "position": "Lead Vocal", "birthday": "1995-01-03", "bio": "穩定優雅的領唱與門面擔當。", "image" : "assets/images/jisoo.jpg"},
+        {"id": "jennie", "name": "金珍妮", "englishName": "JENNIE", "koreanName": "제니", "position": "Main Rapper, Lead Vocal", "birthday": "1996-01-16", "bio": "時尚指標、兼具強大饒舌與歌唱實力的全能偶像。", "image" : "assets/images/jennie.jpg"},
+        {"id": "rose", "name": "朴彩英", "englishName": "ROSÉ", "koreanName": "로제", "position": "Main Vocal, Lead Dancer", "birthday": "1997-02-11", "bio": "擁有極高辨識度空靈嗓音的主唱。", "image" : "assets/images/rose.jpg"},
+        {"id": "lisa", "name": "莉莎", "englishName": "LISA", "koreanName": "리사", "position": "Main Dancer, Lead Rapper, Maknae", "birthday": "1997-03-27", "bio": "世界級頂尖舞者與全球巨星。", "image" : "assets/images/lisa.jpg"}
+      ],
+      "representativeSongs": [
+        {"title": "DDU-DU DDU-DU", "youtubeId": "IHNzOHi8sJs"},
+        {"title": "Kill This Love", "youtubeId": "2S24-y0Ij3Y"}
+      ],
+      "albums": ["SQUARE ONE", "SQUARE UP", "KILL THIS LOVE", "THE ALBUM", "BORN PINK"],
+      "awards": ["MTV Video Music Awards", "MAMA Awards"]
+    },
+    {
+      "id": "nmixx",
+      "name": "NMIXX",
+      "koreanName": "엔믹스",
+      "debutDate": "2022-02-22",
+      "agency": "JYP Entertainment",
+      "groupImage": "assets/images/NMIXX_group.jpg",
+      "members": [
+        {"id": "lily", "name": "朴珍", "englishName": "LILY", "koreanName": "릴리", "position": "Main Vocal", "birthday": "2002-10-17", "bio": "擁有頂級震撼高音的主唱。", "image" : "assets/images/lily.jpg"},
+        {"id": "haewon", "name": "吳海嫄", "englishName": "HAEWON", "koreanName": "해원", "position": "Leader, Main Vocal", "birthday": "2003-02-25", "bio": "實力堅強的隊長與主唱。", "image" : "assets/images/haewon.jpg"},
+        {"id": "sullyoon", "name": "薛侖娥", "englishName": "SULLYOON", "koreanName": "설윤", "position": "Vocal, Dancer", "birthday": "2004-01-26", "bio": "驚豔歌壇的視覺與實力兼具成員。", "image" : "assets/images/sullyoon.jpg"},
+        {"id": "bae", "name": "裴真率", "englishName": "BAE", "koreanName": "배이", "position": "Vocal, Dancer", "birthday": "2004-12-28", "bio": "擁有獨特中低音嗓音的魅力成員。", "image" : "assets/images/bae.jpg"},
+        {"id": "jiwoo", "name": "金智友", "englishName": "JIWOO", "koreanName": "지우", "position": "Rapper, Vocal, Dancer", "birthday": "2005-04-13", "bio": "爆發力十足的全能饒舌與舞蹈擔當。", "image" : "assets/images/jiwoo..jpg"},
+        {"id": "kyujin", "name": "張圭珍", "englishName": "KYUJIN", "koreanName": "규진", "position": "Main Dancer, Rapper, Maknae", "birthday": "2006-05-26", "bio": "實力超群的老么兼主舞。", "image" : "assets/images/kyujin.jpg"}
+      ],
+      "representativeSongs": [
+        {"title": "O.O", "youtubeId": "3GWjf6_J6Zw"},
+        {"title": "DASH", "youtubeId": "iL5t92_kJz4"}
+      ],
+      "albums": ["AD MARE", "ENTWURF", "expergo", "A Midsummer NMIXX's Dream", "Fe3O4: BREAK", "Fe3O4: STICK OUT"],
+      "awards": ["Circle Chart Music Awards"]
+    },
+    {
+      "id": "fromis_9",
+      "name": "fromis_9",
+      "koreanName": "프로미스나인",
+      "debutDate": "2018-01-24",
+      "agency": "Pledis Entertainment",
+      "groupImage": "assets/images/fromis_9_group.jpg",
+      "members": [
+        {"id": "saerom", "name": "李賽綸", "englishName": "LEE SAEROM", "koreanName": "이새롬", "position": "Leader, Vocal", "birthday": "1997-01-07", "bio": "溫柔細心的隊長。", "image" : "assets/images/saerom.jpg"},
+        {"id": "hayoung", "name": "宋河英", "englishName": "SONG HAYOUNG", "koreanName": "송하영", "position": "Main Dancer, Lead Vocal", "birthday": "1997-09-29", "bio": "舞蹈與創作實力兼具的主舞。", "image" : "assets/images/hayoung.jpg"},
+        {"id": "jiwon", "name": "朴池原", "englishName": "PARK JIWON", "koreanName": "박지원", "position": "Main Vocal", "birthday": "1998-03-20", "bio": "高亢具爆發力的主唱。", "image" : "assets/images/jiwon.jpg"},
+        {"id": "jisun", "name": "盧知宣", "englishName": "ROH JISUN", "koreanName": "노지선", "position": "Vocal", "birthday": "1998-11-23", "bio": "溫暖療癒的魅力成員。", "image" : "assets/images/jisun.jpg"},
+        {"id": "seoyeon", "name": "李瑞淵", "englishName": "LEE SEOYEON", "koreanName": "이서연", "position": "Main Rapper, Vocal", "birthday": "2000-01-22", "bio": "才華洋溢的製作與饒舌擔當。", "image" : "assets/images/seoyeon.jpg"},
+        {"id": "chaeyoung", "name": "李彩煐", "englishName": "LEE CHAEYOUNG", "koreanName": "이채영", "position": "Main Dancer, Rapper", "birthday": "2000-05-14", "bio": "活力四射的主舞。", "image" : "assets/images/chaeyoung..jpg"},
+        {"id": "nagyung", "name": "李娜炅", "englishName": "LEE NAGYUNG", "koreanName": "이나경", "position": "Vocal, Dancer", "birthday": "2000-06-01", "bio": "精緻美貌與穩定實力的成員。", "image" : "assets/images/nagyung.jpg"},
+        {"id": "jiheon", "name": "白知憲", "englishName": "BAEK JIHEON", "koreanName": "백지헌", "position": "Maknae, Vocal", "birthday": "2003-04-17", "bio": "聰明伶俐的可愛老么。", "image" : "assets/images/jiheon.jpg"}
+      ],
+      "representativeSongs": [
+        {"title": "DM", "youtubeId": "Z9A73d22bIU"},
+        {"title": "#menow", "youtubeId": "E3v1fM58y1Y"}
+      ],
+      "albums": ["To. Heart", "Fun Factory", "Midnight Guest", "from our Memento Box", "Unlock My World", "Supersonic"],
+      "awards": ["Asia Artist Awards"]
+    },
+    {
+      "id": "babymonster",
+      "name": "BABYMONSTER",
+      "koreanName": "베이비몬스터",
+      "debutDate": "2023-11-27",
+      "agency": "YG Entertainment",
+      "groupImage": "assets/images/BABYMONSTER_group.jpg",
+      "members": [
+        {"id": "ruka", "name": "河井瑠花", "englishName": "RUKA", "koreanName": "루카", "position": "Main Dancer, Rapper", "birthday": "2002-03-20", "bio": "舞台上的她總帶著自信與俐落的氣場，每個舞步都充滿力量，饒舌時更展現出獨特的魅力。看似帥氣又酷酷的外表下，卻藏著可愛又調皮的一面。她就像舞台上永遠不會熄滅的火焰，讓人一眼就難以忘記。", "image" : "assets/images/ruka.jpg"},
+        {"id": "pharita", "name": "帕麗塔", "englishName": "PHARITA", "koreanName": "파리타", "position": "Vocal, Dancer", "birthday": "2005-08-26", "bio": "擁有甜美嗓音的泰國籍成員，她就像午後灑落的陽光，溫柔又帶著讓人安心的力量。清澈甜美的嗓音，總能在不經意間觸動人心，而優雅的氣質更讓她散發出獨特魅力。每當她露出笑容，彷彿連周圍的空氣都變得更加溫暖。", "image" : "assets/images/pharita.jpg"},
+        {"id": "asa", "name": "榎並杏紗", "englishName": "ASA", "koreanName": "아사", "position": "Main Rapper, Dancer", "birthday": "2006-04-17", "bio": "擁有令人驚艷的饒舌實力，節奏感與舞台掌控力總是讓人忍不住將目光停留在她身上。看似冷酷又帥氣的她，私底下卻有著反差十足的可愛模樣。她用自己的方式詮釋音樂，也用獨一無二的魅力，慢慢走進每個粉絲的心裡。", "image" : "assets/images/asa.jpg"},
+        {"id": "rora", "name": "李茶仁", "englishName": "RORA", "koreanName": "로라", "position": "Vocal", "birthday": "2008-08-14", "bio": "帶著如月光般柔和的氣質，卻有著超乎年齡的成熟與穩定。她的歌聲細膩又充滿情感，總能在旋律中傳遞出最真誠的感受。偶爾流露出的俏皮與可愛，更讓人看見她不同的一面。她就像一首越聽越喜歡的歌，總能在心中留下溫柔的餘韻。", "image" : "assets/images/rora.jpg"},
+        {"id": "chiquita", "name": "奇奎塔", "englishName": "CHIQUITA", "koreanName": "치키타", "position": "Maknae, Vocal", "birthday": "2009-02-17", "bio": "像一顆充滿活力的小太陽，總是帶著燦爛笑容為舞台注入滿滿能量。年紀輕輕的她，卻擁有令人驚艷的表演天賦與自信，每一次登台都能散發耀眼光芒。可愛、調皮又充滿魅力的她，就像一場永遠看不膩的驚喜，讓人忍不住想陪著她一起成長。", "image" : "assets/images/chiquita.jpg"},
+        {"id": "Ahyeon", "name": "鄭雅賢", "englishName": "AHYEON", "koreanName": "아현", "position": "Vocal, Rapper, Dancer", "birthday": "2007-04-11", "bio": "彷彿天生就為舞台而生，無論是高亢動人的歌聲、充滿力量的饒舌，還是自信耀眼的舞蹈，都能展現出令人驚嘆的實力。她總是帶著滿滿的熱情站在舞台中央，笑容裡藏著青春的光芒，讓人看見什麼叫做真正閃閃發亮的少女。", "image" : "assets/images/Ahyeon.jpg"},
+        {"id": "rami", "name": "申厦藍", "englishName": "RAMI", "koreanName": "라미", "position": "Maknae, Vocal", "birthday": "2007-10-17", "bio": "她的歌聲有一種特別的魔力，溫柔時能悄悄撫慰人心，爆發時又能帶來直擊靈魂的震撼。細膩而富有情感的演唱，讓每首歌曲都多了一份獨特的溫度。她不需要太多華麗的修飾，只要一開口，就足以讓人記住她的聲音。", "image" : "assets/images/rami.jpg"}
+      ],
+      "representativeSongs": [
+        {"title": "SHEESH", "youtubeId": "yZ6_VhT26Gg"},
+        {"title": "BATTER UP", "youtubeId": "jVjXgM3h9gM"}
+      ],
+      "albums": ["BABYMONSTER", "DRIP"],
+      "awards": ["MAMA Awards Best New Artist nominee"]
+    },
+    {
+      "id": "hearts2hearts",
+      "name": "Hearts2Hearts",
+      "koreanName": "하츠투하츠",
+      "debutDate": "2025年2月24日",
+      "agency": "SM Entertainment",
+      "groupImage": "assets/images/hearts2hearts_group.jpg",
+      "members": [
+        {"id": "jiwoo", "name": "崔知優", "englishName": "JIWOO", "koreanName": "지우", "position": "Leader, Dancer, Vocalist", "birthday": "2006-09-07", "bio": "像一道溫柔而堅定的光，總是默默守護著身邊的每個人。身為隊長的她，舞台上散發著自信與魅力，舞台下卻有著讓人安心的溫暖笑容。她的魅力不只是耀眼，而是讓人不知不覺想一直陪伴在她身旁。", "image" : "assets/images/jiwoo.jpg"},
+        {"id": "carmen","name": "卡門", "englishName": "CARMEN", "koreanName": "카르멘", "position": "Vocalist", "birthday": "2006-03-28", "bio": "來自印尼的溫柔女孩，彷彿把南國陽光藏進了笑容裡。她的歌聲細膩又充滿感情，每個音符都像在輕輕訴說一段故事。那份真誠與甜美，讓人只要看見她的笑容，就覺得整個世界都變得更加明亮。", "image" : "assets/images/carmen.jpg"},
+        {"id": "yuha", "name": "柳河覽", "englishName": "YUHA", "koreanName": "유하", "position": "Vocalist, Dancer", "birthday": "2007-04-12", "bio": "像春日微風般清新動人的女孩，舉手投足間都散發著自然的優雅。她的歌聲溫柔而富有感染力，笑起來又帶著令人心動的甜美。或許她不需要刻意成為焦點，因為只要站在那裡，就足以讓人忍不住多看幾眼。", "image" : "assets/images/yuha.jpg"},
+        {"id": "stella", "name": "金多絢", "englishName": "STELLA", "koreanName": "스텔라", "position": "Vocalist", "birthday": "2007-06-18", "bio": "如同名字裡閃耀的星光，她有著獨特而迷人的氣質。清澈的嗓音彷彿能穿過喧鬧，輕輕落進聽眾心裡。時而優雅，時而俏皮，那份自然流露的反差魅力，就像夜空中最特別的星星，讓人越了解越捨不得移開目光。", "image" : "assets/images/stella.jpg"},
+        {"id": "juun", "name": "金周恩", "englishName": "JUUN", "koreanName": "주은", "position": "Main Dancer, Rapper, Vocalist", "birthday": "2008-12-03", "bio": "舞台上的她像一團自由燃燒的火焰，每個舞步都充滿力量與自信。俐落的節奏感與鮮明的個性，讓她總能留下深刻印象。然而在帥氣的外表之下，也藏著青春可愛的一面，這種意想不到的反差，正是讓人越陷越深的魅力。", "image" : "assets/images/juun.jpg"},
+        {"id": "ana", "name": "盧慧娜", "englishName": "A-NA", "koreanName": "에이나", "position": "Vocalist, Rapper, Visual", "birthday": "2008-12-20", "bio": "像從青春電影裡走出來的少女，擁有清冷又夢幻的氣質。初見時或許會被她精緻的外貌吸引，但真正令人著迷的，是她不經意流露的溫柔與可愛。當她露出笑容的瞬間，彷彿連時間都慢了下來，讓人想把那一刻永遠收藏。", "image" : "assets/images/ana.jpg"},
+        {"id": "ian", "name": "鄭以安", "englishName": "IAN", "koreanName": "이안", "position": "Dancer, Vocalist, Center", "birthday": "2009-10-09", "bio": "天生擁有讓人無法忽視的舞台魅力，明亮的眼神與靈動的表情，總能在不經意間抓住所有目光。舞台上的她耀眼又自信，私底下卻流露著少女特有的純真與俏皮。她就像青春裡那場突如其來的心動，讓人只看一眼便難以忘記。", "image" : "assets/images/ian.jpg"},
+        {"id": "yeon", "name": "金奈延", "englishName": "YE-ON", "koreanName": "예온", "position": "Vocalist, Maknae", "birthday": "2010-04-19", "bio": "團體裡備受疼愛的忙內，像一顆閃閃發亮的小太陽，帶著純真與活力走進每個人的心裡。甜美的笑容和清亮的歌聲，總能帶來滿滿的幸福感。雖然年紀最小，卻擁有令人期待的無限潛力，讓人想陪著她一起見證每一次成長與綻放。", "image" : "assets/images/yeon.jpg"}
+      ],
+      "representativeSongs": [{"title": "First Heart", "youtubeId": "dQw4w9WgXcQ"}],
+      "albums": ["First Step"],
+      "awards": ["Rookie Spotlight"]
+    }
+  ]
+}
